@@ -51,7 +51,7 @@ const AssignmentMarks = () => {
       <h1 className="mt-8 mb-3 text-3xl font:extrabold text-slate-600">
         A Rechart Example Given Below(with BarChart):
       </h1>
-      <div className="flex justify-center items-center bg-slate-300 p-4 rounded-md mx-16 w-auto">
+      <div className="flex justify-center py-9 items-center bg-slate-300 rounded-md mx-2">
         <LineChart width={400} height={200} data={data}>
           <Line type="monotone" dataKey="marks" stroke="#82ca9d" />
           <XAxis dataKey="name" />
